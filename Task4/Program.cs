@@ -4,7 +4,6 @@ namespace Task4
 {
     class Program
     {
-
  
         static void Main(string[] args)
         {
@@ -12,21 +11,6 @@ namespace Task4
             string word1 = Console.ReadLine();
             string convertToUpper = word1.ToUpper();
             Console.WriteLine(CompareEnteredWordAndReversedWord(convertToUpper));
-
-            // char[] reverse = word.ToCharArray();
-            // Array.Reverse(reverse);
-            // string reversedWord = new string(reverse);
-
-
-            //if (Equals(word, reversedWord))
-            //{
-            //    Console.WriteLine("Entered word is palindrome");
-            //}
-
-            //else
-            //{
-            //    Console.WriteLine("Entered word is NOT palindrome");
-            //}
 
         }
 
@@ -55,48 +39,5 @@ namespace Task4
     }
 
 }
-
-
-
-
-//foreach (char ch1 in converWordtoArray)
-//{
-//    foreach (char ch2 in reverse)
-//    {
-//        if (ch1 == ch2)
-//        {
-//            Console.WriteLine("Entered word is palindrome");
-//        }
-
-//        else
-//        {
-//            Console.WriteLine("Entered word is NOT palindrome");
-//        }
-//    }
-//}
-
-//    if (converWordtoArray.Length == reverse.Length)
-//{
-//    Console.WriteLine("Entered word is palindrome");
-//}
-
-//else
-//{
-//    Console.WriteLine("Entered word is NOT palindrome");
-//}
-//foreach (char ch in converWordtoArray)
-//{
-//    if (word == reverse)
-//    Console.WriteLine(ch);
-//}
-
-//    if (word.Equals(reverse))
-//{
-//    Console.WriteLine("Entered word is palindrome");
-//}
-//else
-//{
-//    Console.WriteLine("Entered word is NOT palindrome");
-//}
 
 
